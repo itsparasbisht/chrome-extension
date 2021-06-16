@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "where's my vaccine",
+    "description": "chrome extension to quickly get all the details of a covid vaccination center",
+    "version": "1.0.0",
+    "icons": {"128": "pin.png"},
+    "browser_action": {
+        "default_icon": "pin.png",
+        "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"]
+}
